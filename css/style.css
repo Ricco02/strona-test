@@ -1,0 +1,47 @@
+html{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 62.5%;
+  color: #333333;
+  font-weight: 400;
+}
+
+.body{
+  background: rgb(117, 116, 116);
+}
+
+.hidden{
+  display: none;
+}
+
+.container{
+  box-sizing: border-box;
+  width: 57.6px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-fluid{
+  box-sizing: border-box;
+  width: 100%
+}
+
+.navbar-container-fluid{
+  background: #fff;
+}
+
+.navbar-contaier{
+  display: flex;
+  align-items: center;
+  height: 5rem; /*to jest 50 px */
+}
+
+.navbar-top >a{
+  display: flex;
+}
+
+.navbar-top > a > span{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #333333;
+  padding-left: 1.5rem;
+  font-weight: 600;
+}
